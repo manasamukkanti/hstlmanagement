@@ -1,0 +1,6 @@
+{
+  "name": "HostelFlow - Comprehensive Hostel Management System",
+  "description": "Full-stack hostel management platform with room and bed allocation, resident directory, automated billing & fee ledger, maintenance tracking, visitor logs, and mess meal schedules.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
