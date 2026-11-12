@@ -9,7 +9,11 @@ import {
   Notice,
 } from '../types/hostel';
 
-const BASE_URL = '/api';
+const API_ORIGIN = (
+  import.meta.env.VITE_API_URL || ''
+).replace(/\/$/, '');
+
+const BASE_URL = `${API_ORIGIN}/api`;
 
 async function handleResponse<T>(res: globalThis.Response): Promise<T> {
   if (!res.ok) {
